@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "chanoteDeeds": {
+      "title": "Chanote Deed Record",
+      "description": "Scanned Thai Land Title Deed metadata, plot points, boundary posts, and area details",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "chanoteNo": { "type": "string" },
+        "bookNo": { "type": "string" },
+        "pageNo": { "type": "string" },
+        "province": { "type": "string" },
+        "district": { "type": "string" },
+        "subdistrict": { "type": "string" },
+        "rawangNo": { "type": "string" },
+        "landNo": { "type": "string" },
+        "surveyPage": { "type": "string" },
+        "scale": { "type": "string" },
+        "ownerName": { "type": "string" },
+        "deedType": { "type": "string" },
+        "issuingOffice": { "type": "string" },
+        "scannedAt": { "type": "string" },
+        "estimatedWidthMeters": { "type": "number" },
+        "estimatedLengthMeters": { "type": "number text" },
+        "notes": { "type": "string" }
+      },
+      "required": ["id", "scannedAt"]
+    }
+  }
+}

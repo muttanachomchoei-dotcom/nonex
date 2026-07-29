@@ -1,0 +1,8 @@
+{
+  "name": "Remix ระบบ AI สแกนและดึงข้อมูลโฉนดที่ดิน",
+  "description": "ระบบสแกน อ่านข้อมูล และดึงโครงสร้าง JSON จากโฉนดที่ดิน (NS-4S) ด้วย Gemini AI พร้อมแสดงผังรูปแปลงที่ดินแบบโต้ตอบ",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
